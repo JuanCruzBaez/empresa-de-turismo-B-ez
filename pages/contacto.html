@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="../main.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turristeando - Guia Turistica</title>
+</head>
+<body>
+    <nav class="navigation">
+        <ul class="flex-container">
+            <li class="nav-list nav-item1"><a class="nav-link" href="../index.html">Home</a></li>
+            <li class="nav-list nav-item2"><a class="nav-link" href="vuelos.html">Vuelos</a></li>
+            <li class="nav-list nav-item3"><a class="nav-link" href="top.html">Nuestro top</a></li>
+            <li class="nav-list nav-item4"><a class="nav-link" href="galeria.html">Galeria</a></li>
+            <li class="nav-list nav-item5"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <header class="header-container">
+        <div class="title-container header-grid2">
+            <h1 class="titulo-principal">Turristeando</h1>
+        </div>
+        <div class="social-container header-grid3">
+            <ul class="social-media">
+                <li><a class="social-link" href="#">Visite nuestro Facebook</a></li>
+                <li><a class="social-link" href="#">Visite nuestro Instagram</a></li>
+            </ul>
+        </div>
+    </header>
+    <div>
+        <h1>CONTACTO</h1>
+        <div>
+            <form action="#">
+                <div>
+                    <input type="text" placeholder="Tu nombre"><br>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                <input type="email" placeholder="Tu mail"><br>
+                </div>
+                <div>
+                    <label for="Celular">Celular:</label>
+                <input type="Celular" placeholder="Numero de telefono"><br>
+                </div>
+                <div>
+                    <p>Elige tu genero:</p>
+                    <div>Masculino
+                            <input type="radio" name="genero" value="Masculino">
+                    </div>
+                    <div>Femenino
+                            <input type="radio" name="genero" value="Femenino">
+                    </div>
+                    <div>Otro
+                            <input type="radio" name="genero" value="Otro">                    
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <p>Con que empresa quieres viajar?</p>
+                    
+                    <label for="Empresa">Selecciona una empresa de vuelos</label>
+
+                    <select name="Empresas" id="empresa">
+                        <option value="aerolineas argentinas">Aerolineas Argentinas</option>
+                        <option value="flybondi">Flybondi</option>
+                        <option value="jet smart">Jet Smart</option>
+                        <option value="lade">Lade</option>
+                    </select>
+                </div>    
+                <br>
+                <div>
+                    <label for="">Queres recibir informacion sobre nosotros?</label>
+                    <input type="checkbox" name="acepta" value="1">
+                </div>
+                <input type="submit" value="Enviar Info">
+                <input type="reset" value="Resetear formulario">
+            </form>    
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Página Web diseñada por Juan Cruz Báez - Copyright 2022</p>
+    </footer>
+    
+</body>
+</html>    
