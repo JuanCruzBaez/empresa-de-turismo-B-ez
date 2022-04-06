@@ -127,11 +127,12 @@ padding: none;
 .galery-image{
   width: 45vw;
   height: 400px;
+  transition: all 0.5s ease-in;
 }
 
 .galery-image:hover{
   filter: blur(1px) grayscale(0.7);
-  transition: all 1s ease-in;
+  transition: all 0.5s ease-in;
   transform: scale(1.02);
 }
 
