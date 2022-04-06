@@ -57,6 +57,7 @@ padding: none;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+
 .footer{
   display: flex;
   flex-flow: row nowrap;
@@ -126,6 +127,12 @@ padding: none;
 .galery-image{
   width: 45vw;
   height: 400px;
+}
+
+.galery-image:hover{
+  filter: blur(1px) grayscale(0.7);
+  transition: all 1s ease-in;
+  transform: scale(1.02);
 }
 
 .galery-container{
