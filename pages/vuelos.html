@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link href="../main.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,15 +9,25 @@
     <title>Turristeando - Guia Turistica</title>
 </head>
 <body>
-    <nav class="navigation">
-        <ul class="flex-container">
-            <li class="nav-list nav-item1"><a class="nav-link" href="../index.html">Home</a></li>
-            <li class="nav-list nav-item2"><a class="nav-link" href="vuelos.html">Vuelos</a></li>
-            <li class="nav-list nav-item3"><a class="nav-link" href="top.html">Nuestro top</a></li>
-            <li class="nav-list nav-item4"><a class="nav-link" href="galeria.html">Galeria</a></li>
-            <li class="nav-list nav-item5"><a class="nav-link" href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
+    <div class="row">
+        <div class="col-lg-12 col-xs-12">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="vuelos.html">Vuelos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="top.html">Nuestro top</a></li>
+                        <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    </ul>
+                 </div> 
+             </nav> 
+        </div>
+    </div> 
     <header class="header-container">
         <div class="title-container header-grid2">
             <h1 class="titulo-principal">Turristeando</h1>
@@ -33,7 +43,7 @@
         <h1>Proximos vuelos a nuestros destinos recomendados</h1>
         <h3>Todos los vuelos salen de Buenos Aires, Ezeiza</h3>
 
-<table class="table">
+<table class="table table-dark">
         <thead>
           <tr>
             <th scope="col">#</th>
@@ -66,7 +76,7 @@
             <td>$29.500</td>
           </tr>
           <tr>
-            <th scope="row">3</th>
+            <th scope="row">4</th>
             <td>Salta</td>
             <td>13/12/2022</td>
             <td>Lade</td>
@@ -78,6 +88,8 @@
     <footer class="footer">
         <p>Página Web diseñada por Juan Cruz Báez - Copyright 2022</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>      
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 </body>
 </html>
